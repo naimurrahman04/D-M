@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="/img/Artboard 1_4-100.jpg">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <title>What we do</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        
+        html {
+            box-sizing: border-box;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+        
+        .card {
+           
+            margin: 8px;
+            box-shadow: 10px 11px 18px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 11px 18px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 18px 2px rgba(0,0,0,0.75);
+        }
+        
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #000000;
+            color: white;
+           
+            margin: 10px;
+
+            box-shadow: 3px 3px 35px 12px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 3px 35px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 35px 12px rgba(0,0,0,0.75);
+        }
+        
+        .container {
+            padding: 0 16px;
+        }
+        
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        .title {
+            color: grey;
+        }
+        
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+        .button:hover {
+            background-color: #555;
+        }
+        img{
+            width: 33.33%;
+            height: 800px;
+        }
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        
+        <!-- <div class="container01">
+            <div class="logo">
+                <img src="img/Artboard 1_10-100.jpg" width="100px" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="">Home</a> </li>
+                    <li> <a href="">About Us</a> 
+                    <div class="megamenu">
+
+                    </div>
+                    </li>
+                    <li> <a href="">Contact</a> </li>
+                </ul>
+            </nav>
+        </div> -->
+ 
+    <div class="menu-btn">
+
+    </div>
+
+    <div class="navigation ">
+        <div class="navigation-items">
+            <a href="index.html">who we are</a>
+            <a href="whatwedo.html">what we do</a>
+            <a href="contact.html">CONTACT US</a>
+
+        </div>
+    </div>
+
+    <!-- <a href="#" class="brand">D&M</a> -->
+    <img src="img/Artboard 1_10-100.jpg" alt="" class="brand">
+
+
+    <div class="mega-box">
+        <div class="contents">
+            <div class="row">
+                <img class="logos" src="img/Artboard 1_4-100.jpg" alt="">
+            </div>
+            <div class="row">
+                <a href="index.html" class="head">who we are</a>
+
+                <!-- <ul class="mega-links" style="list-style: none;">
+                    <li><a href="">demo1</a></li>
+                    <li><a href="">demo1</a></li>
+                    <li><a href="">demo1</a></li>
+                    <li><a href="">demo1</a></li>
+                </ul> -->
+            </div>
+            <div class="row">
+                <a href="whatwedo.html" class="head">what we do</a>
+
+                <div class="megalinks">
+                    <div class="megamenuitems">
+                        <h3>DEMO3</h3>
+                        <ul>
+                            <li><a href="">DEMO</a></li>
+                            <li><a href="">DEMO</a></li>
+                            <li><a href="">DEMO</a></li>
+                        </ul>
+                       
+                    </div>
+                    <div class="megamenuitems">
+                        
+                        <h3>DEMO1</h3>
+                        <ul>
+                            <li><a href="">DEMO</a></li>
+                            <li><a href="">DEMO</a></li>
+                            <li><a href="">DEMO</a></li>
+                        </ul>
+                    </div>
+                    <div class="megamenuitems">
+                        
+                        <h3>DEMO2</h3>
+                        <ul>
+                            <li><a href="">DEMO</a></li>
+                            <li><a href="">DEMO</a></li>
+                            <li><a href="">DEMO</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a href="contact.html" class="head">CONTACT US</a>
+<!-- 
+                <ul class="mega-links" style="list-style: none;">
+                    <li><a href="">demo1</a></li>
+                    <li><a href="">demo1</a></li>
+                    <li><a href="">demo1</a></li>
+                    <li><a href="">demo1</a></li>
+                </ul> -->
+            </div>
+        </div>
+    </div>
+    <!-- <div class="mega-box2">
+        <div class="contents2">
+            <div class="row2">
+                <img class="logos2" src="img/Artboard 1_10-100.jpg" alt="">
+            </div>
+            <div class="row2">
+                <a href="index.html" class="head">who we are</a>
+
+
+            </div>
+            <div class="row2">
+                <a href="whatwedo.html" class="head">what we do</a>
+
+
+            </div>
+            <div class="row2">
+                <a href="contact.html" class="head">CONTACT US</a>
+
+
+            </div>
+        </div>
+    </div> -->
+</header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="about-section">
+        <h1>What We Do</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+    </div>
+
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="img/5.jpg"  style="width:100%">
+                <div class="container">
+                    <h2>Demo</h2>
+                    <p class="title">Lorem ipsum dolor sit amet.</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>Lorem, ipsum.</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="img/6.jpg"  style="width:100%">
+                <div class="container">
+                    <h2>Demo</h2>
+                    <p class="title">Lorem ipsum dolor sit amet.</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>Lorem, ipsum.</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="img/7.jpg"  style="width:100%">
+                <div class="container">
+                    <h2>Demo</h2>
+                    <p class="title">Lorem ipsum dolor sit amet.</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>Lorem, ipsum.</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="img/8.jpg"  style="width:100%">
+                <div class="container">
+                    <h2>Demo</h2>
+                    <p class="title">Lorem ipsum dolor sit amet.</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>Lorem, ipsum.</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="img/9.jpg"  style="width:100%">
+                <div class="container">
+                    <h2>Demo</h2>
+                    <p class="title">Lorem ipsum dolor sit amet.</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>Lorem, ipsum.</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="img/10.jpg"  style="width:100%">
+                <div class="container">
+                    <h2>Demo</h2>
+                    <p class="title">Lorem ipsum dolor sit amet.</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>Lorem, ipsum.</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF HEADER -->
+
+    <!-- END OF CONTEN -->
+
+
+
+    <!-- footer start-->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci fuga iste qui, libero maiores animi non totam iusto voluptates nam, itaque excepturi sunt, similique consequatur. Ea saepe molestias ipsam voluptas!
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- START OF JAVA SCRIPT -->
+    <script type="text/javascript">
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+        //javascript for video slider navigation
+        const btns = document.querySelectorAll(".nav-btn");
+        const slides = document.querySelectorAll(".video-slider");
+        const contents = document.querySelectorAll(".content");
+        var sliderNav = function(manual) {
+            btns.forEach((btn) => {
+                btn.classList.remove("active");
+            });
+
+            slides.forEach((slide) => {
+                slide.classList.remove("active");
+            });
+
+            contents.forEach((content) => {
+                content.classList.remove("active");
+            });
+
+            btns[manual].classList.add("active");
+            slides[manual].classList.add("active");
+            contents[manual].classList.add("active");
+        }
+        btns.forEach((btn, i) => {
+            btn.addEventListener("click", () => {
+                sliderNav(i);
+            });
+        })
+    </script>
+</body>
+
+</html>
